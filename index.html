@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shahed Eater — Патріотична гра</title>
+	<link rel="stylesheet" href="static/styles/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<h1>🇺🇦 Shahed Eater</h1>
+		<nav id="nav">
+			<a href="#about">Про гру</a>
+			<a href="#features">Можливості</a>
+			<a href="#screenshots">Демонстрація</a>
+			<a href="#download">Завантажити</a>
+		</nav>
+		<div class="burger" id="burger">☰</div>
+	</header>
+
+	<section id="hero" class="hero">
+		<div class="hero-content">
+			<h2>Захищай дім.  
+				Збивай шахеди.  
+				Грай за життя 🇺🇦</h2>
+			<p>Поринь у шедевро аркаду, де навіть голуби б’ються за небо.<br>- "навіть голуби стараються, ви сідітє на діванах"</p>
+			<a href="#download" class="btn big-btn">💥 Завантажити гру</a>
+		</div>
+	</section>
+
+	<div class="divider yellow-blue"></div>
+
+	<section id="about" class="about">
+		<h2>Про гру</h2>
+		<p><strong>Shahed Eater</strong> — патріотична аркадна гра, де ти керуєш героєм на голубі 🕊️,  
+		збиваєш ворожі шахеди та рятуєш свій дім від обстрілів!</p>
+	</section>
+
+	<div class="divider blue-yellow"></div>
+
+	<section id="features" class="features">
+		<h2>Можливості гри</h2>
+		<ul>
+			<li>🎮 <strong>2D Графіка</strong> — проста, але весела</li>
+			<li>⚙️ <strong>Налаштування</strong> — зміна мови та звуку</li>
+			<li>🕊️ <strong>Скіни</strong> — обирай героя або героїню</li>
+			<li>📊 <strong>Статистика</strong> — збереження рекордів</li>
+			<li>🌍 <strong>Мультиплеєр</strong> — грай з другом 1 на 1</li>
+			<li>🔥 <strong>Соло-режим</strong> — три рівні складності: легко, середньо, складно</li>
+		</ul>
+	</section>
+
+	<div class="divider blue-yellow"></div>
+
+	<section id="download" class="download">
+		<h2>Завантажити гру</h2>
+		<p>Обери свою платформу та приєднуйся до боротьби!</p>
+		<div class="buttons">
+			<a href="static/files/ShahedEater.exe" class="btn">💻 Windows (.exe)</a>
+			<a href="static/files/ShahedEater.apk" class="btn">📱 Android (.apk)</a>
+		</div>
+	</section>
+	
+	<div class="divider yellow-blue"></div>
+
+	<section id="screenshots" class="screenshots">
+		<h2>Демонстрація</h2>
+		<br>
+		<div class="gallery">
+			<img src="static/img/screen1.png" alt="Скрін 1">
+			<img src="static/img/screen2.png" alt="Скрін 2">
+			<img src="static/img/screen3.png" alt="Скрін 3">
+			<img src="static/img/screen4.png" alt="Скрін 3">
+			<img src="static/img/screen5.png" alt="Скрін 3">
+			<img src="static/img/screen6.png" alt="Скрін 3">
+			<img src="static/img/screen7.png" alt="Скрін 3">
+		</div>
+	</section>
+
+	<footer class="footer">
+		<p>© 2025 Shahed Eater  
+		Розробник: <a href="https://kanokadev.top" target="_blank">MrWoon (by KanokaDev)</a></p>
+	</footer>
+
+	<script>
+		const burger = document.getElementById('burger');
+		const nav = document.getElementById('nav');
+		burger.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+
+</body>
+</html>
